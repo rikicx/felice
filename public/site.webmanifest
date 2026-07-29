@@ -1,0 +1,12 @@
+{
+  "name": "Felice Engenharia e Topografia",
+  "short_name": "Felice",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06192a",
+  "theme_color": "#06192a",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 104" role="img" aria-labelledby="title desc">
+  <title id="title">Felice Engenharia e Topografia</title>
+  <desc id="desc">Símbolo inspirado em edificações, estação topográfica, curvas de nível e orientação, acompanhado do nome Felice.</desc>
+  <g fill="none" stroke-linecap="square" stroke-linejoin="miter">
+    <g stroke="#292d2e" stroke-width="2.4">
+      <path d="M22 50V23l13-7v25M35 39V5l17 5v29"/>
+      <path d="M52 15h21v7H52zm21 0h25M73 22h22v12H73" fill="#292d2e"/>
+      <path d="M61 42l9-8 9 8M70 34v24M61 63l9-21 10 21"/>
+      <path d="M57 28h9m-9-4h9m-9-4h9m-9-4h9" stroke-width="1.2"/>
+      <path d="M10 55l17 4-7 8z" fill="#292d2e"/>
+    </g>
+    <g stroke="#005c66">
+      <path d="M25 59c11 9 25 13 39 13 15 0 29-5 41-15-3 20-20 34-41 34-20 0-36-12-39-32z" fill="#005c66" stroke-width="1.5"/>
+      <path d="M17 58c4 24 23 40 47 40 23 0 43-16 48-39" stroke-width="3"/>
+      <path d="M20 77l-8-8 12 1M64 97v7M102 76l9 9" stroke-width="3"/>
+    </g>
+  </g>
+  <g fill="#292d2e" font-family="Arial, Helvetica, sans-serif">
+    <text x="129" y="62" font-size="37" font-weight="600" letter-spacing="8">FELICE</text>
+    <path d="M302 34a15 15 0 1 0 0 29" fill="none" stroke="#005c66" stroke-width="1.8"/>
+    <path d="M303 30v8m-4-4h8M303 59v8m-4-4h8" fill="none" stroke="#292d2e" stroke-width="1.3"/>
+    <text x="130" y="83" font-size="10.5" letter-spacing="1.45">ENGENHARIA E TOPOGRAFIA</text>
+  </g>
+</svg>
