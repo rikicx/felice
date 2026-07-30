@@ -12,7 +12,7 @@ Só entrou no site informação verificada publicamente:
 
 Não foi encontrado publicamente: equipe, portfólio e site anterior. O Instagram bloqueia leitura automatizada. Nada disso foi preenchido por suposição.
 
-O CNPJ `59.522.272/0001-02`, o registro profissional `CREA/RS 215.989`, o WhatsApp `(55) 99907-0692`, o e-mail `felicetopografiaeengenharia@gmail.com`, a lista de serviços, o logotipo e a composição institucional foram confirmados diretamente pelo cliente.
+O CNPJ `59.522.272/0001-02`, o registro profissional `CREA/RS 215.989`, o WhatsApp `(55) 99907-0692`, o e-mail `feliceengenhariaetopografia@gmail.com`, a lista de serviços, o logotipo e a composição institucional foram confirmados diretamente pelo cliente.
 
 ## Tokens a substituir no código
 
