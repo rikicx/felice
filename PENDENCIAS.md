@@ -27,9 +27,9 @@ Buscar por `{{` no `index.html`.
 
 Trocar também o domínio `www.feliceengenharia.com.br` pelo domínio real em `index.html` (canonical, Open Graph, JSON-LD), `robots.txt` e `sitemap.xml`.
 
-## Serviços — confirmar antes de publicar
+## Serviços — confirmados pelo cliente
 
-Os seis cartões da seção Serviços estão marcados com `data-confirmar="true"` no HTML. Eles reproduzem as categorias que você listou no briefing como exemplos, não informação verificada da empresa. **Apagar os cartões que não correspondem ao que a Felice presta** e ajustar os itens de cada lista. Depois de confirmados, remover o atributo `data-confirmar`.
+Os seis cartões da seção Serviços foram atualizados com o conteúdo enviado e confirmado pelo cliente. Os atributos `data-confirmar` foram removidos do HTML.
 
 ## Seção Projetos
 

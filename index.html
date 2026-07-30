@@ -309,9 +309,7 @@
 
 <!-- ====================================================================
      SEÇÃO · SERVIÇOS
-     ATENÇÃO: cada cartão está marcado com data-confirmar="true".
-     Confirmar com o cliente quais serviços são realmente prestados e
-     remover os cartões que não se aplicam antes de publicar.
+     Conteúdo dos seis cartões confirmado pelo cliente.
      ==================================================================== -->
 <section class="section section--mist" id="servicos" aria-labelledby="servicos-titulo">
   <div class="shell">
@@ -325,7 +323,7 @@
 
     <div class="grid grid--3" data-reveal-group>
 
-      <article class="card" data-reveal data-confirmar="true">
+      <article class="card" data-reveal>
         <svg class="tech-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
           <path d="M4 26h24"/><path d="M16 6v14"/><path d="M10 26l6-6 6 6"/><circle cx="16" cy="5" r="2"/>
         </svg>
@@ -335,12 +333,13 @@
         <ul class="card__list">
           <li>Levantamento planialtimétrico</li>
           <li>Levantamento cadastral</li>
-          <li>Medição de área e perímetro</li>
+          <li>Medição de áreas e perímetros</li>
           <li>Cálculo de volumes e movimentação de terra</li>
+          <li>Demarcação de divisas</li>
         </ul>
       </article>
 
-      <article class="card" data-reveal data-confirmar="true">
+      <article class="card" data-reveal>
         <svg class="tech-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
           <circle cx="16" cy="16" r="11"/><path d="M5 16h22M16 5c3.5 3.4 3.5 18.6 0 22M16 5c-3.5 3.4-3.5 18.6 0 22"/>
         </svg>
@@ -348,44 +347,46 @@
         <h3>Georreferenciamento</h3>
         <p>Vinculação do imóvel ao Sistema Geodésico Brasileiro, com memorial e peças técnicas na forma exigida pelos órgãos.</p>
         <ul class="card__list">
-          <li>Georreferenciamento de imóveis rurais</li>
-          <li>Georreferenciamento de imóveis urbanos</li>
-          <li>Memorial descritivo e planta</li>
-          <li>Retificação de área e divisas</li>
+          <li>Georreferenciamento de imóveis rurais e urbanos</li>
+          <li>Certificação de imóveis SIGEF/INCRA — Lei nº 10.267/2001</li>
+          <li>Mapas e memoriais descritivos</li>
         </ul>
       </article>
 
-      <article class="card" data-reveal data-confirmar="true">
+      <article class="card" data-reveal>
         <svg class="tech-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
           <rect x="5" y="5" width="22" height="22"/><path d="M5 12h22M12 12v15M19 12v15M5 20h22"/>
         </svg>
-        <span class="card__ref">Frente 03 — Parcelamento</span>
-        <h3>Loteamentos e desmembramentos</h3>
+        <span class="card__ref">Frente 03 — Parcelamento do solo</span>
+        <h3>Divisões e unificações de imóveis</h3>
         <p>Estudo, projeto e demarcação de parcelamento do solo, do traçado inicial à implantação em campo.</p>
         <ul class="card__list">
-          <li>Projeto de loteamento</li>
-          <li>Desmembramento e unificação</li>
-          <li>Demarcação de lotes e quadras</li>
-          <li>Documentação para aprovação</li>
+          <li>Parcelamento do solo urbano: condomínios, loteamento, desmembramento, fracionamento/desdobro e fusão/unificação de áreas</li>
+          <li>Parcelamento do solo rural: condomínios, desmembramento e fusão/unificação de áreas</li>
+          <li>Projetos de usucapião</li>
+          <li>Localização de parcelas urbanas e rurais</li>
         </ul>
       </article>
 
-      <article class="card" data-reveal data-confirmar="true">
+      <article class="card" data-reveal>
         <svg class="tech-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
           <path d="M6 27V9l10-5 10 5v18"/><path d="M12 27v-9h8v9"/><path d="M4 27h24"/>
         </svg>
-        <span class="card__ref">Frente 04 — Projeto</span>
-        <h3>Engenharia civil</h3>
+        <span class="card__ref">Frente 04 — Engenharia civil</span>
+        <h3>Projetos e assessorias</h3>
         <p>Projetos e peças técnicas com responsabilidade profissional registrada, compatibilizados com o levantamento do terreno.</p>
         <ul class="card__list">
-          <li>Projeto arquitetônico e complementares</li>
-          <li>Orçamento e memorial</li>
+          <li>Projetos arquitetônicos e complementares</li>
+          <li>Construções, demolições, reformas e ampliações</li>
+          <li>Orçamentos e memoriais</li>
           <li>Emissão de ART</li>
-          <li>Laudos e vistorias técnicas</li>
+          <li>Laudos técnicos e vistorias</li>
+          <li>Consultoria técnica</li>
+          <li>Avaliações de imóveis</li>
         </ul>
       </article>
 
-      <article class="card" data-reveal data-confirmar="true">
+      <article class="card" data-reveal>
         <svg class="tech-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
           <path d="M4 24h24"/><path d="M9 24V13l7-5 7 5v11"/><path d="M16 8V3"/><circle cx="16" cy="17" r="2"/>
         </svg>
@@ -393,14 +394,15 @@
         <h3>Locação e acompanhamento</h3>
         <p>Transferência do projeto para o terreno e verificação da execução contra a cota e o alinhamento previstos.</p>
         <ul class="card__list">
-          <li>Locação de obra e de eixos</li>
+          <li>Locação de obras</li>
           <li>Nivelamento e transporte de cotas</li>
           <li>Acompanhamento topográfico de execução</li>
+          <li>Acompanhamento técnico de obras civis</li>
           <li>As built</li>
         </ul>
       </article>
 
-      <article class="card" data-reveal data-confirmar="true">
+      <article class="card" data-reveal>
         <svg class="tech-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
           <path d="M8 4h12l5 5v19H8z"/><path d="M20 4v5h5"/><path d="M12 16h9M12 21h9"/>
         </svg>
@@ -408,10 +410,9 @@
         <h3>Regularizações e documentação</h3>
         <p>Organização das peças técnicas necessárias para regularizar imóveis e edificações junto aos órgãos competentes.</p>
         <ul class="card__list">
-          <li>Regularização fundiária</li>
+          <li>Regularização fundiária — imóveis rurais e urbanos</li>
+          <li>Retificação de área</li>
           <li>Regularização de edificações</li>
-          <li>Averbação e habite-se</li>
-          <li>Cadastro ambiental rural</li>
         </ul>
       </article>
 
