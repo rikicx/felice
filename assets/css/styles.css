@@ -449,6 +449,7 @@ img { height: auto; }
 .shot {
   position: relative;
   overflow: hidden;
+  margin: 0;
   background: var(--ink-800);
   border-radius: var(--radius);
   aspect-ratio: 4 / 3;
@@ -732,10 +733,11 @@ img { height: auto; }
   gap: var(--sp-7);
 }
 @media (min-width: 62em) {
-  .about__grid { grid-template-columns: minmax(0, 6fr) minmax(0, 6fr); gap: clamp(3rem, 1rem + 5vw, 6rem); align-items: start; }
+  .about__grid { grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: clamp(3rem, 1rem + 5vw, 6rem); align-items: center; }
 }
 .about__body p { font-size: var(--fs-body); color: var(--slate-500); }
 .about__body p + p { margin-top: var(--sp-4); }
+.about__visual { border: 1px solid var(--line-soft); }
 
 /* — Diferenciais ---------------------------------------------------------- */
 .pillar {
@@ -930,6 +932,13 @@ img { height: auto; }
   color: rgba(169, 188, 203, .72);
 }
 .footer__bottom p { margin: 0; max-width: none; }
+.footer__credit { flex-basis: 100%; }
+.footer__credit a {
+  color: inherit;
+  text-underline-offset: .24em;
+}
+.footer__credit a:hover,
+.footer__credit a:focus-visible { color: #fff; }
 
 /* — WhatsApp flutuante ---------------------------------------------------- */
 .whatsapp-float {
@@ -939,11 +948,11 @@ img { height: auto; }
   z-index: 90;
   display: inline-flex;
   align-items: center;
-  gap: .625rem;
-  min-height: 3.5rem;
-  padding: .8125rem 1rem;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
   border: 1px solid rgba(255, 255, 255, .24);
-  border-radius: 999px;
+  border-radius: 50%;
   background: var(--survey);
   box-shadow: 0 12px 32px rgba(25, 34, 34, .24);
   color: #fff;

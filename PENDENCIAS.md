@@ -10,9 +10,9 @@ Só entrou no site informação verificada publicamente:
 | Coordenadas — 29°37′01″S 53°26′49″W | Google Business Profile |
 | Instagram — @felice_engenharia_topografia | Informado no briefing |
 
-Não foi encontrado publicamente: CNPJ, registro CREA, equipe, portfólio, site anterior, identidade visual. O Instagram bloqueia leitura automatizada. Nada disso foi preenchido por suposição.
+Não foi encontrado publicamente: CNPJ, registro CREA, equipe, portfólio e site anterior. O Instagram bloqueia leitura automatizada. Nada disso foi preenchido por suposição.
 
-O WhatsApp `(55) 99907-0692`, o e-mail `felicetopografiaeengenharia@gmail.com` e a lista de serviços foram confirmados diretamente pelo cliente.
+O WhatsApp `(55) 99907-0692`, o e-mail `felicetopografiaeengenharia@gmail.com`, a lista de serviços, o logotipo e a composição institucional foram confirmados diretamente pelo cliente.
 
 ## Tokens a substituir no código
 
@@ -39,4 +39,4 @@ Os blocos de "Quem somos", "Diferenciais" e "Processo de trabalho" descrevem mé
 
 ## Imagens
 
-Ver `assets/img/LEIA-ME.txt`. Sem fotos, os slots exibem preenchimento técnico e o layout já reserva a proporção final.
+A composição institucional enviada pelo cliente foi otimizada e aplicada à seção "Quem somos". Ver `assets/img/LEIA-ME.txt` para os demais slots; sem imagens de projetos, eles permanecem ocultos com a seção correspondente.
