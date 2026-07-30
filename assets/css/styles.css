@@ -931,6 +931,52 @@ img { height: auto; }
 }
 .footer__bottom p { margin: 0; max-width: none; }
 
+/* — WhatsApp flutuante ---------------------------------------------------- */
+.whatsapp-float {
+  position: fixed;
+  right: clamp(1rem, 2.4vw, 2rem);
+  bottom: clamp(1rem, 2.4vw, 2rem);
+  z-index: 90;
+  display: inline-flex;
+  align-items: center;
+  gap: .625rem;
+  min-height: 3.5rem;
+  padding: .8125rem 1rem;
+  border: 1px solid rgba(255, 255, 255, .24);
+  border-radius: 999px;
+  background: var(--survey);
+  box-shadow: 0 12px 32px rgba(25, 34, 34, .24);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: var(--fs-micro);
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color .2s var(--ease), box-shadow .2s var(--ease), transform .2s var(--ease);
+}
+.whatsapp-float:hover,
+.whatsapp-float:focus-visible {
+  background: var(--survey-lift);
+  box-shadow: 0 14px 36px rgba(25, 34, 34, .3);
+  transform: translateY(-2px);
+}
+.whatsapp-float__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5;
+}
+.whatsapp-float__icon path + path {
+  fill: currentColor;
+  stroke: none;
+}
+
 /* --------------------------------------------------------------------------
    06 · MOVIMENTO
    -------------------------------------------------------------------------- */
@@ -954,7 +1000,7 @@ img { height: auto; }
 }
 
 @media print {
-  .masthead, .drawer, .hero__field, .hero__scroll, .map { display: none !important; }
+  .masthead, .drawer, .hero__field, .hero__scroll, .map, .whatsapp-float { display: none !important; }
   body { color: #000; }
   .section--ink, .hero, .cta, .footer { background: #fff !important; color: #000 !important; }
 }
