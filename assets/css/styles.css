@@ -768,21 +768,32 @@ img { height: auto; }
 .project h3 { font-size: var(--fs-h3); }
 
 /* — Área de atuação ------------------------------------------------------- */
+.section--coverage {
+  padding-block: clamp(3rem, 2.5rem + 2vw, 4rem);
+}
+.section--coverage .section__head {
+  margin-bottom: clamp(1.5rem, 1.25rem + 1vw, 2.25rem);
+}
 .coverage {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--sp-7);
+  gap: var(--sp-6);
   align-items: center;
 }
 @media (min-width: 62em) {
-  .coverage { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(3rem, 1rem + 5vw, 6rem); }
+  .coverage { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(2.5rem, 1.5rem + 3vw, 4rem); }
 }
+.coverage .spec__row { padding-block: var(--sp-3); }
+.coverage__actions { margin-top: var(--sp-5); }
 .coverage__plate {
   position: relative;
   aspect-ratio: 1 / 1;
-  max-width: 34rem;
+  max-width: 22rem;
   margin-inline: auto;
   width: 100%;
+}
+@media (max-width: 39.99em) {
+  .coverage__plate { max-width: 17rem; }
 }
 .coverage__plate svg { width: 100%; height: 100%; }
 .coverage__plate .ring-line { fill: none; stroke: var(--line); stroke-width: 1; }
