@@ -10,9 +10,9 @@ Só entrou no site informação verificada publicamente:
 | Coordenadas — 29°37′01″S 53°26′49″W | Google Business Profile |
 | Instagram — @felice_engenharia_topografia | Informado no briefing |
 
-Não foi encontrado publicamente: e-mail, CNPJ, registro CREA, equipe, portfólio, site anterior, identidade visual. O Instagram bloqueia leitura automatizada. Nada disso foi preenchido por suposição.
+Não foi encontrado publicamente: CNPJ, registro CREA, equipe, portfólio, site anterior, identidade visual. O Instagram bloqueia leitura automatizada. Nada disso foi preenchido por suposição.
 
-O telefone e WhatsApp `+55 (55) 99907-0692` e a lista de serviços foram confirmados diretamente pelo cliente.
+O WhatsApp `(55) 99907-0692`, o e-mail `felicetopografiaeengenharia@gmail.com` e a lista de serviços foram confirmados diretamente pelo cliente.
 
 ## Tokens a substituir no código
 
@@ -20,7 +20,6 @@ Buscar por `{{` no `index.html`.
 
 | Token | Onde aparece |
 |---|---|
-| `{{EMAIL}}` | JSON-LD, CTA, contato, rodapé |
 | `{{CNPJ}}` e `{{REGISTRO_CREA}}` | rodapé |
 | `{{MUNICIPIOS_ATENDIDOS}}` e `{{RAIO_DE_ATENDIMENTO}}` | área de atuação |
 | `{{PROJETO_*}}` e `{{PROJETOS_INTRO}}` | seção Projetos |
