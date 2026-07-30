@@ -267,8 +267,8 @@ img { height: auto; }
 
 .brand { display: inline-flex; align-items: center; text-decoration: none; }
 .brand__logo {
-  width: clamp(10.75rem, 8.75rem + 4vw, 14.25rem);
-  height: auto;
+  width: auto;
+  height: 4rem;
   max-height: 4rem;
 }
 
