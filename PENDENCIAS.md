@@ -21,7 +21,6 @@ Buscar por `{{` no `index.html`.
 | Token | Onde aparece |
 |---|---|
 | `{{CNPJ}}` e `{{REGISTRO_CREA}}` | rodapé |
-| `{{MUNICIPIOS_ATENDIDOS}}` e `{{RAIO_DE_ATENDIMENTO}}` | área de atuação |
 | `{{PROJETO_*}}` e `{{PROJETOS_INTRO}}` | seção Projetos |
 
 Trocar também o domínio `www.feliceengenharia.com.br` pelo domínio real em `index.html` (canonical, Open Graph, JSON-LD), `robots.txt` e `sitemap.xml`.
