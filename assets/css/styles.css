@@ -771,9 +771,6 @@ img { height: auto; }
 .section--coverage {
   padding-block: clamp(3rem, 2.5rem + 2vw, 4rem);
 }
-.section--coverage .section__head {
-  margin-bottom: clamp(1.5rem, 1.25rem + 1vw, 2.25rem);
-}
 .coverage {
   display: grid;
   grid-template-columns: 1fr;
@@ -781,8 +778,9 @@ img { height: auto; }
   align-items: center;
 }
 @media (min-width: 62em) {
-  .coverage { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(2.5rem, 1.5rem + 3vw, 4rem); }
+  .coverage { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2.5rem, 1.5rem + 3vw, 4rem); }
 }
+.coverage__intro { margin-block: var(--sp-5) var(--sp-6); }
 .coverage .spec__row { padding-block: var(--sp-3); }
 .coverage__actions { margin-top: var(--sp-5); }
 .coverage__plate {
